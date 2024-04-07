@@ -23,6 +23,7 @@
 
 #searchDiv{
     display: flex;
+    gap: 1rem;
 }
 #searchBox{
     display: flex;
@@ -46,13 +47,13 @@
     gap: 1rem;
 }
 #product{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: grid;
     grid-template-columns:repeat(4,1fr);
    
 }
 #product >div{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 250px;
     margin: 20px;
     
@@ -90,4 +91,36 @@
 }
 .cards>p:nth-child(5){
     font-weight: bold;
+}
+#upper{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(26, 10, 10);
+    /* color: white; */
+    padding: 15px;
+    
+
+}
+
+#upper>div>div>img {
+    /* border: 1px solid red; */
+    width: 20px;
+    height: 20px;
+    
+    
+}
+
+#upper>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#upper>div>div{
+    display: flex;
+    margin-right: 10px;
+    gap: 10px;
+    
 }

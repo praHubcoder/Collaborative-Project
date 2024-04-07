@@ -1,0 +1,46 @@
+#product{
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+   
+}
+#product >div{
+    border: 1px solid red;
+    width: 250px;
+    margin: 20px;
+    
+}
+.cards{
+    position: relative;
+
+}
+
+
+.logo{
+    width: 250px;
+    height: 310px;
+}
+.topleft{
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    font-size: 10px;
+    background-color: rgb(66, 124, 158);
+    padding: 5px;
+    color: white;
+}
+.topRight{
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    font-size: 10px;
+    background-color: rgb(203, 203, 203);
+    color: white;
+}
+.cards>div:nth-child(4){
+    display: flex;
+    justify-content: space-between;
+}
+.cards>p:nth-child(5){
+    font-weight: bold;
+}

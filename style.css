@@ -1,3 +1,50 @@
+#navbaar>#lower{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+#logoImg{
+    height: 20px;
+}
+
+#navigation{
+    display: flex;
+    gap: 1rem;
+}
+#navigation>div{
+    padding-bottom: 0.3rem;
+    border-bottom: 2px solid transparent;
+    font-weight: bold;
+}
+#navigation>div:hover{
+    border-bottom: 2px solid #C40C2F;
+}
+
+#searchDiv{
+    display: flex;
+}
+#searchBox{
+    display: flex;
+    align-items: end;
+}
+#searchBox>div{
+    display: flex;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.6rem;
+}
+#searchBox input{
+    border: none;
+}
+#delivery{
+    display: flex;
+    border-radius: 50px;
+    background-color: #C40C2F;
+    color: white;
+    padding: 0.3rem 0.8rem;
+    align-items: center;
+    gap: 1rem;
+}
 #product{
     border: 1px solid red;
     display: grid;
